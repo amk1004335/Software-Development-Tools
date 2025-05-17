@@ -10,7 +10,7 @@ import lejos.robotics.SampleProvider;
 public class lineFollower {
 
     // Hom Bahadur Adhikari & Bishnu.
-    // Motors Connection
+    // Motors Connections
     private final RegulatedMotor leftMotor = Motor.A;
     private final RegulatedMotor rightMotor = Motor.B;
 
