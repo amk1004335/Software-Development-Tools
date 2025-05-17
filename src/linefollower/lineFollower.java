@@ -50,8 +50,8 @@ public class lineFollower {
 
         // On the line (dark)? Turn left slightly
         if (intensity < 0.3) {
-            leftMotor.setSpeed(150); // Slow left
-            rightMotor.setSpeed(200); // Fast right
+            leftMotor.setSpeed(200); // Slow left
+            rightMotor.setSpeed(250); // Fast right
         }
         // Off the line (light)? Turn right slightly
         else {
