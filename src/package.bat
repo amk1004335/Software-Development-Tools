@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk1.7.0_80\bin\jar" -cfe fixed3obstacleteam20.jar linefollower.lineFollower "..\lib\ev3classes.jar" ".\linefollower"
