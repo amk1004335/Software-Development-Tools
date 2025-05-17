@@ -9,7 +9,7 @@ import lejos.robotics.SampleProvider;
 
 public class lineFollower {
 
-    // Hom Bahadur & Bishnu.
+    // Hom Bahadur Adhikari & Bishnu.
     // Motors Connection
     private final RegulatedMotor leftMotor = Motor.A;
     private final RegulatedMotor rightMotor = Motor.B;
@@ -30,8 +30,8 @@ public class lineFollower {
     public void run() {
         // Main loop. We have made infinite loop so until we manually stops the robot it
         // runs.
-        leftMotor.setAcceleration(350);
-        rightMotor.setAcceleration(350);
+        leftMotor.setAcceleration(300);
+        rightMotor.setAcceleration(300);
 
         while (true) {
             followLine();
