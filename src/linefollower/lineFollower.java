@@ -49,14 +49,14 @@ public class lineFollower {
         float intensity = readColorSensor();
 
         // On the line (dark)? Turn left slightly
-        if (intensity < 0.3) {
+        if (intensity < 0.2) {
             leftMotor.setSpeed(200); // Slow left
             rightMotor.setSpeed(250); // Fast right
         }
         // Off the line (light)? Turn right slightly
         else {
-            leftMotor.setSpeed(200); // Fast left
-            rightMotor.setSpeed(150); // Slow right
+            leftMotor.setSpeed(250); // Fast Left
+            rightMotor.setSpeed(300); // Slow Right
         }
 
         // Keep moving forward
