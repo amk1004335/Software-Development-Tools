@@ -55,8 +55,8 @@ public class lineFollower {
         }
         // Off the line (light)? Turn right slightly
         else {
-            leftMotor.setSpeed(150); // Fast Left
-            rightMotor.setSpeed(200); // Slow Right
+            leftMotor.setSpeed(250); // Fast Left
+            rightMotor.setSpeed(300); // Slow Right
         }
 
         // Keep moving forward
